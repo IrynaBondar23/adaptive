@@ -78,7 +78,8 @@ body {
     display: none;
 }
 .baner_descktop {
-    display: none;
+    display: flex;
+    flex-direction: column;
 }
 .baner_box {
     width: 100vw;
@@ -510,7 +511,7 @@ body {
         height: 80px;
     }
 }
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     .header {
         flex-direction: column;
         margin-top: 25px;
