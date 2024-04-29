@@ -648,7 +648,7 @@ body {
         height: 29px;
         position: absolute;
         top: 0;
-        left: 5px;
+        left: 5%;
     }
     .arrow_right {
         width: 16px;
@@ -888,58 +888,60 @@ body {
             color: var(--accent-color);
         }
     }
+    .show_more_btn {
+        font-size: 15px;
+        padding: 20px 70px;
+        background-color: var(--base-color);
+    }
+    .promo_baner {
+        display: none;
+    }
+    .promo_baner_desc {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 80px;
+        padding: 10px 0;
+        background-color: var(--accent-color);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 18px;
+    }
+    .promo_baner_desc p {
+        font-size: 30px;
+        font-weight: 700;
+        color: var(--white-color);
+        margin-left: 46px;
+    }
+    .promo_baner_box {
+        /* width: 40%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 5px;
+    }
+    .promo_baner_box img {
+        width: calc(60% / 2);
+    }
+    .promo_baner_desc a {
+        font-size: 24px;
+        text-transform: uppercase;
+        padding: 10px 30px;
+        margin-left: 130px;
+        background-color: var(--white-color);
+        color: var(--main-text);
+    }
+    .other_goods {
+        width: 100%;
+        display: flex;
+        margin-top: 72px;
+    }
+    
 
-}
-.show_more_btn {
-    font-size: 15px;
-    padding: 20px 70px;
-    background-color: var(--base-color);
-}
-.promo_baner {
-    display: none;
-}
-.promo_baner_desc {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 80px;
-    padding: 10px 0;
-    background-color: var(--accent-color);
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    margin-bottom: 18px;
-}
-.promo_baner_desc p {
-    font-size: 30px;
-    font-weight: 700;
-    color: var(--white-color);
-    margin-left: 46px;
-}
-.promo_baner_box {
-    /* width: 40%; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap: 5px;
-}
-.promo_baner_box img {
-    width: calc(60% / 2);
-}
-.promo_baner_desc a {
-    font-size: 24px;
-    text-transform: uppercase;
-    padding: 10px 30px;
-    margin-left: 130px;
-    background-color: var(--white-color);
-    color: var(--main-text);
-}
-.other_goods {
-    display: flex;
-    margin-top: 72px;
 }
 
 
