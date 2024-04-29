@@ -359,6 +359,9 @@ body {
 .promo_baner_desc {
     display: none;
 }
+.other_goods {
+    display: none;
+}
 @media (min-width: 768px) and (max-width: 1024px) {
     .burger_nav ul li {
         font-size: 28px;
@@ -540,6 +543,9 @@ body {
         height: 80px;
     }
     .promo_baner_desc {
+        display: none;
+    }
+    .other_goods {
         display: none;
     }
 }
@@ -789,6 +795,7 @@ body {
     .popular_items_box_desc {
         width: calc(85% / 4);
         max-height: 414px;
+        min-height: 414px;
         border: 1px solid var(--light-grey-text); 
         border-radius: 5px; 
         padding: 61px 34px 32px 34px; 
@@ -929,6 +936,10 @@ body {
     margin-left: 130px;
     background-color: var(--white-color);
     color: var(--main-text);
+}
+.other_goods {
+    display: flex;
+    margin-top: 72px;
 }
 
 
