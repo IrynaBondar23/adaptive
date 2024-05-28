@@ -15,7 +15,7 @@ jobs:
       - name: Upload to FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with: 
-          ftpsever: ftpupload.net
-          ftpusername: if0_36632817
-          ftppassword: aFx1oKD1pPPxF6G
+          sever: ftpupload.net
+          username: if0_36632817
+          password: aFx1oKD1pPPxF6G
           local-dir: "/"
